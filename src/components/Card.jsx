@@ -22,10 +22,13 @@ export default function Card() {
         setError('');
     };
 
-
     return (
-        <div className="flex justify-center items-center  bg-gray-52 min-h-screen">
-            <div className="p-5 border border-solid border-sky-500 rounded-lg shadow-md mx-auto bg-white">
+        <div className="flex flex-col md:flex-row justify-between items-center bg-gradient-to-r from-cyan-500 to-blue-500 min-h-screen p-10">
+            <div className="md:w-1/2 mb-10 md:mb-0 text-white">
+                <h2 className="text-2xl font-bold mb-4">About the Calculator</h2>
+                <p>This calculator allows you to quickly and easily compute the average of a set of numbers. Simply enter your numbers separated by commas, and the average will be calculated for you. It's a useful tool for students, teachers, and anyone who needs to perform quick average calculations.</p>
+            </div>
+            <div className="md:w-1/2 p-5 border-solid border-4 border-rose-500 rounded-lg shadow-md bg-violet-200">
                 <div className="flex justify-center">
                     <img src={calimg} alt="Calculator" className="w-24 h-24 mb-3 mt-5" />
                 </div>
@@ -48,11 +51,10 @@ export default function Card() {
                     )}
                 </div>
                 <div className="mt-5 text-center">
-                    <button onClick={handleCalculateAverage} className="px-5 py-2  bg-sky-500 text-white rounded hover:bg-sky-600">Calculate Average</button>
-                    
+                    <button onClick={handleCalculateAverage} className="px-5 py-2 bg-sky-500 text-white rounded hover:bg-sky-600">Calculate Average</button>
                 </div>
-                <div className = "mt-5 text-center">
-                <button onClick={handleCancel} className="px-4 py-2 bg-sky-500 text-white rounded hover:bg-sky-600">Cancel</button>
+                <div className="mt-5 text-center">
+                    <button onClick={handleCancel} className="px-4 py-2 bg-sky-500 text-white rounded hover:bg-sky-600">Cancel</button>
                 </div>
             </div>
         </div>
