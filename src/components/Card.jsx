@@ -24,8 +24,8 @@ export default function Card() {
 
 
     return (
-        <div className="flex justify-center items-center  bg-gray-52">
-            <div className="p-5 border border-solid border-sky-500 rounded-lg shadow-md mx-5 my-10 bg-white">
+        <div className="flex justify-center items-center  bg-gray-52 min-h-screen">
+            <div className="p-5 border border-solid border-sky-500 rounded-lg shadow-md mx-auto bg-white">
                 <div className="flex justify-center">
                     <img src={calimg} alt="Calculator" className="w-24 h-24 mb-3 mt-5" />
                 </div>

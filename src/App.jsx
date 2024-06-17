@@ -5,14 +5,13 @@ function App() {
   
 
   return (
-    <> 
-    <div className = "navbar" >
+    <div className='bg-gradient-to-r from-amber-200 to-yellow-400'> 
+    {/* <div className = "navbar" >
       <h1>Average Calculator</h1>
-    </div>
-  
+    </div> */}
     <Card/>
       
-    </>
+    </div>
   )
 }
 
