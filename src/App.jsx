@@ -5,10 +5,9 @@ function App() {
   
 
   return (
-    <div className='bg-gradient-to-r from-amber-200 to-yellow-400'> 
-    {/* <div className = "navbar" >
-      <h1>Average Calculator</h1>
-    </div> */}
+    <div > 
+     <h1 className = 'mx-7 my-7 p-2 text-4xl font-extrabold'>Average Calculator</h1>
+    
     <Card/>
       
     </div>

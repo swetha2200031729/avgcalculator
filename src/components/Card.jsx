@@ -24,11 +24,11 @@ export default function Card() {
 
     return (
         <div className="flex flex-col md:flex-row justify-between items-center bg-gradient-to-r from-cyan-500 to-blue-500 min-h-screen p-10">
-            <div className="md:w-1/2 mb-10 md:mb-0 text-white">
+            <div className="md:w-1/2 mb-14 md:mb-1/2 text-white">
                 <h2 className="text-2xl font-bold mb-4">About the Calculator</h2>
-                <p>This calculator allows you to quickly and easily compute the average of a set of numbers. Simply enter your numbers separated by commas, and the average will be calculated for you. It's a useful tool for students, teachers, and anyone who needs to perform quick average calculations.</p>
+                <p>This calculator allows you to quickly and easily compute the average of a set of numbers.<br/> Simply enter your numbers separated by commas, and the average will be calculated for you. <br/> It's a useful tool for students, teachers, and anyone who needs to perform quick average calculations.</p>
             </div>
-            <div className="md:w-1/2 p-5 border-solid border-4 border-rose-500 rounded-lg shadow-md bg-violet-200">
+            <div className="md:w-1/2 p-5 border-solid border-4 border-rose-500 rounded-lg  bg-violet-200 shadow-2xl">
                 <div className="flex justify-center">
                     <img src={calimg} alt="Calculator" className="w-24 h-24 mb-3 mt-5" />
                 </div>
